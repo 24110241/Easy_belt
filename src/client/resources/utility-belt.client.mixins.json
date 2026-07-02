@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "sh.sit.utilitybelt.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "AbstractContainerScreenAccessor",
+    "AvatarRenderStateMixin",
+    "AvatarRenderStateAccessor",
+    "AvatarRendererMixin",
+    "InventoryScreenMixin",
+    "LivingEntityRendererAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
